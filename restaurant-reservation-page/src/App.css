@@ -1,0 +1,120 @@
+.menu {
+  margin: 0 10% 0 10%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#reservation-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reservation-input-label {
+  color: #231f20;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .reservation-input-label {
+    font-size: 12px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 320px) {
+  .reservation-input-label {
+    font-size: 9px;
+  }
+}
+
+.reservation-input {
+  margin-top: 1%;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .reservation-input {
+    font-size: 12px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 320px) {
+  .reservation-input {
+    font-size: 7px;
+  }
+}
+
+#submit {
+  width: 20%;
+  margin: 2% 40% 4% 40%;
+  cursor: pointer;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  #submit {
+    width: 20%;
+    margin: 2% 40% 4% 40%;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  #submit {
+    width: 40%;
+    margin: 2% 30% 4% 30%;
+    cursor: pointer;
+    font-size: 8px;
+    text-align: center;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  #submit {
+    width: 40%;
+    margin: 2% 30% 4% 30%;
+    cursor: pointer;
+    font-size: 8px;
+    text-align: center;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  #submit {
+    width: 40%;
+    margin: 2% 30% 4% 30%;
+    cursor: pointer;
+    font-size: 8px;
+    text-align: center;
+  }
+}
+
+.reservation-message {
+  color: #231f20;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .reservation-message {
+    color: #231f20;
+    font-size: 18px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .reservation-message {
+    color: #231f20;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,155 @@
+#checkout-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.checkout-input-label {
+  color: #231f20;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .checkout-input-label {
+    font-size: 12px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  .checkout-input-label {
+    font-size: 9px;
+  }
+}
+
+.checkout-input {
+  margin-top: 1%;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .checkout-input {
+    font-size: 12px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  .checkout-input {
+    font-size: 9px;
+  }
+}
+
+#finalize-order {
+  width: 20%;
+  margin: 2% 40% 0 40%;
+  cursor: pointer;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  #finalize-order {
+    font-size: 10px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  #finalize-order {
+    font-size: 8.5px;
+  }
+}
+
+#zip-code-input::-webkit-inner-spin-button,
+#zip-code-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#card-number-input::-webkit-inner-spin-button,
+#card-number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#security-code-input::-webkit-inner-spin-button,
+#security-code-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#tip-input::-webkit-inner-spin-button,
+#tip-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#order-summary-header {
+  color: #231f20;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  #order-summary-header {
+    font-size: 24px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  #order-summary-header {
+    font-size: 20px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  #order-summary-header {
+    font-size: 18px;
+  }
+}
+
+.order-summary-data {
+  color: #231f20;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .order-summary-data {
+    font-size: 18px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .order-summary-data {
+    font-size: 16px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  .order-summary-data {
+    font-size: 14px;
+  }
+}
+
+.checkout-message {
+  color: #231f20;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .checkout-message {
+    color: #231f20;
+    font-size: 18px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .checkout-message {
+    color: #231f20;
+    font-size: 10px;
+  }
+}

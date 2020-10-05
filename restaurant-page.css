@@ -1,0 +1,459 @@
+/* Color Scheme: https://coolors.co/231f20-bb4430-7ebdc2-f3dfa2-efe6dd */
+
+html {
+  box-sizing: border-box;
+  font-family: Crimson Text;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#header-container {
+  width: 81%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-header {
+  height: 100%;
+  font-size: 44px;
+  font-weight: 595;
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  #main-header {
+    font-size: 29px;
+  }
+}
+
+/*Surface Duo and Cell Phones*/
+@media (max-width: 540px) {
+  #main-header {
+    font-size: 22px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  #main-header {
+    font-size: 22px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  #main-header {
+    font-size: 12px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  #main-header {
+    font-size: 11px;
+  }
+}
+
+#main-header-link {
+  text-decoration: none;
+  color: #231f20;
+}
+
+#nav-bar-items {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-bar-item {
+  margin-right: 10%;
+  font-size: 32px;
+  color: #231f20;
+  list-style: none;
+  display: flex;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .nav-bar-item {
+    font-size: 24px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .nav-bar-item {
+    font-size: 16px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .nav-bar-item {
+    font-size: 14px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  .nav-bar-item {
+    font-size: 10px;
+  }
+}
+
+#reservations {
+  text-decoration: none;
+  color: #231f20;
+}
+
+#order {
+  text-decoration: none;
+  color: #231f20;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: rgba(239, 230, 211, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#restaurant-photo {
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+#restaurant-layout {
+  width: 81%;
+}
+
+#container {
+  width: 81%;
+  margin-top: 0%;
+  box-sizing: border-box;
+  background-color: white;
+  border-style: solid;
+  border-color: #f3dfa2;
+  border-width: 8px;
+}
+
+#menu-header {
+  font-size: 36px;
+  color: #231f20;
+}
+
+/*smaller screen and ipad*/
+@media (max-width: 1000px) {
+  #menu-header {
+    font-size: 27px;
+  }
+}
+
+/*mobile*/
+@media (max-width: 425px) {
+  #menu-header {
+    font-size: 18px;
+  }
+}
+
+.sub-header {
+  font-size: 28px;
+  color: #bb4430;
+  margin-bottom: 2px;
+}
+
+/*smaller screen and ipad*/
+@media (max-width: 1000px) {
+  .sub-header {
+    font-size: 21px;
+  }
+}
+
+/*mobile*/
+@media (max-width: 425px) {
+  .sub-header {
+    font-size: 14px;
+  }
+}
+
+.menu {
+  margin: 0 10% 0 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.column {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #231f20;
+}
+
+/*smaller screen and ipad*/
+@media (max-width: 1000px) {
+  .item {
+    font-size: 18px;
+  }
+}
+
+/*mobile*/
+@media (max-width: 425px) {
+  .item {
+    font-size: 12px;
+  }
+}
+
+.price {
+  margin-top: 0px;
+  list-style-type: none;
+  font-size: 20px;
+  text-align: center;
+  color: #231f20;
+}
+
+#root-beer-price {
+  margin-bottom: 10%;
+}
+
+#lemonade-price {
+  margin-bottom: 10%;
+}
+
+#iced-tea-price {
+  margin-bottom: 10%;
+}
+
+/*smaller screen and ipad*/
+@media (max-width: 1000px) {
+  .price {
+    font-size: 15px;
+  }
+}
+
+/*mobile*/
+@media (max-width: 425px) {
+  .price {
+    font-size: 10px;
+  }
+}
+
+footer {
+  width: 81%;
+  margin-top: 8px;
+  background-color: #7ebdc2;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer-container {
+  margin: 0 10% 0 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-text {
+  list-style-type: none;
+  font-size: 20px;
+  color: #231f20;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .footer-text {
+    font-size: 12px;
+  }
+}
+
+/*Surface Duo*/
+@media (max-width: 540px) {
+  .footer-text {
+    font-size: 9px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .footer-text {
+    font-size: 6.5px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .footer-text {
+    font-size: 5px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  .footer-text {
+    font-size: 4.8px;
+  }
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 30%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 10px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .fa {
+    padding: 2.5px;
+    font-size: 5px;
+    width: 5px;
+  }
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+  }
+}
+
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  color: white;
+  margin-bottom: 10px;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .fa-instagram {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .fa-instagram {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    color: white;
+    margin-bottom: 2.5px;
+  }
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+    margin-bottom: 2.5px;
+  }
+}

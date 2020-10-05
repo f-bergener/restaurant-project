@@ -1,0 +1,267 @@
+.menu {
+  margin: 0 10% 0 10%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.section-header {
+  color: #231f20;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .section-header {
+    color: #231f20;
+    font-size: 16px;
+  }
+}
+
+/*iPhone 5 and smaller*/
+@media (max-width: 320px) {
+  .section-header {
+    color: #231f20;
+    font-size: 13px;
+  }
+}
+
+.button-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 25% 0 25%;
+  width: 50%;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .button-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10% 0 10%;
+    width: 80%;
+  }
+}
+
+/*Surface Duo and Cell Phones*/
+@media (max-width: 425px) {
+  .button-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0.5% 0 0.5%;
+    width: 99%;
+  }
+}
+
+/*iPhone 5 and smaller*/
+@media (max-width: 320px) {
+  .button-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0.25% 0 0.25%;
+    width: 99.5%;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.quantity {
+  width: 32px;
+  height: 18px;
+  font-size: 16px;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .quantity {
+    width: 24px;
+    height: 13.5px;
+    font-size: 12px;
+  }
+}
+
+/*Surface Duo*/
+@media (max-width: 1024px) {
+  .quantity {
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .quantity {
+    width: 8px;
+    height: 9px;
+    font-size: 8px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .quantity {
+    width: 7px;
+    height: 8px;
+    font-size: 7px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 320px) {
+  .quantity {
+    width: 6px;
+    height: 7px;
+    font-size: 6px;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+/*Smaller Screen*/
+@media (max-width: 800px) {
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.item-label {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 18px;
+  font-size: 20px;
+  color: #231f20;
+}
+
+/*Smaller screen*/
+@media (max-width: 1400px) {
+  .item-label {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 20px;
+    font-size: 15px;
+    color: #231f20;
+  }
+}
+
+/*Ipad Pro*/
+@media (max-width: 1100px) {
+  .item-label {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 20px;
+    font-size: 12px;
+    color: #231f20;
+  }
+}
+
+/*Surface Duo*/
+@media (max-width: 540px) {
+  .item-label {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 20px;
+    font-size: 12px;
+    color: #231f20;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .item-label {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 20px;
+    font-size: 8px;
+    color: #231f20;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 320px) {
+  .item-label {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 20px;
+    font-size: 7px;
+    color: #231f20;
+  }
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  .total {
+    font-size: 18px;
+    color: #231f20;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .total {
+    font-size: 12px;
+    color: #231f20;
+  }
+}
+
+#submit {
+  width: 20%;
+  margin: 2% 40% 4% 40%;
+  cursor: pointer;
+  text-align: center;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  #submit {
+    width: 20%;
+    margin: 2% 40% 4% 40%;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  #submit {
+    width: 40%;
+    margin: 2% 30% 4% 30%;
+    cursor: pointer;
+    font-size: 8px;
+    text-align: center;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  #submit {
+    width: 20%;
+    margin: 2% 40% 4% 40%;
+    cursor: pointer;
+    font-size: 8px;
+    text-align: center;
+  }
+}
