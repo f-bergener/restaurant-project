@@ -1,4 +1,4 @@
-# restaurant-project
+# Restaurant Project
 This is a website that was built for a fictional restaurant that was built with HTML, CSS, Javascript. The website allows you to make orders and reservations. The restaurant order and reservation pages were built with Create React App (see instructions below)
 
 
